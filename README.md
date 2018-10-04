@@ -11,7 +11,7 @@
   ```
 to your ~/.bashrc and run `source ~/.bashrc`
 - Then you can just run `amplxe-gui` to launch the VTune GUI.
-- Need to load build and load the sampling drivers (With help of SNA)
+- Need to build and load the sampling drivers (With help of SNA)
 - Need to set proc/sys/kernel/perf_event_paranoid to 0 (With help of SNA)
 ```
 echo "0" > proc/sys/kernel/perf_event_paranoid

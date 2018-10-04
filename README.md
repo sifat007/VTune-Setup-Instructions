@@ -14,7 +14,7 @@ to your ~/.bashrc and run `source ~/.bashrc`
 - Need to load build and load the sampling drivers (With help of SNA)
 - Need to set proc/sys/kernel/perf_event_paranoid to 0 (With help of SNA)
 ```
-echo "0" > proc/sys/kernel/perf_even_paranoid
+echo "0" > proc/sys/kernel/perf_event_paranoid
 ```
 - Need to have a licence file. For now just download the licence file attached and put it in a directory of your choice. Then put this line in the ~/.bashrc file.
 

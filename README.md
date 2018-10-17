@@ -11,6 +11,13 @@
   ```
 to your ~/.bashrc and run `source ~/.bashrc`
 - Then you can just run `amplxe-gui` to launch the VTune GUI.
+
+- Add these two line in the `~/.bashrc` and run `source ~/.bashrc`.
+```
+source /usr/local/vtune/amplxe-vars.sh
+export AMPLXE_MORE_PIN_OPTIONS='-ifeellucky'
+
+```
 - Need to build and load the sampling drivers (Per machine and with help of SNA)
 ```
 /usr/local/vtune_amplifier_2019/vtune_amplifier_2019.0.2.570779/sepdk/src/build-driver
